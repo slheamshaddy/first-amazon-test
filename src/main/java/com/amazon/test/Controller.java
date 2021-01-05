@@ -20,6 +20,7 @@ public class Controller {
     @RequestMapping("/")
 	public String display() {
     	logger.info("Application executed.......");
+    	System.out.println();
 		return "Yaaay I just deployed my first Amazon project!";
 	}
     @GetMapping("/displayName/{name}")

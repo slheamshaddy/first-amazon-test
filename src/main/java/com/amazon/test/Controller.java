@@ -14,7 +14,8 @@ public class Controller {
 	public static Logger logger = LoggerFactory.getLogger(Controller.class);
 	@PostConstruct
 	public void init() {
-		logger.info("Application started successfully......");
+		logger.info("..........Application started successfully..........");
+		
 	}
 	
     @RequestMapping("/")

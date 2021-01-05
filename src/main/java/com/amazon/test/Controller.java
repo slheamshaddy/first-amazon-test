@@ -26,7 +26,7 @@ public class Controller {
 	}
     @GetMapping("/displayName/{name}")
     public String display2(@PathVariable String name) {
-    	logger.info("Application executed.......");
+    	logger.info("Application executed......");
     	return "My name is "+ name;
     }
 }
